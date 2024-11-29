@@ -4,7 +4,94 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sign Up</title>
-  <link rel="stylesheet" href="/styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #eaf7ea; /* Light green background */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .auth-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 20px;
+    }
+
+    .auth-card {
+      background-color: #fff; /* White background for the card */
+      border: 1px solid #d1e7d1; /* Light green border */
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    h1 {
+      color: #2c6f2c; /* Dark green text */
+      text-align: center;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: #3c8f3c; /* Medium green text */
+    }
+
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #c3e6c3; /* Light green border */
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type="email"]:focus,
+    input[type="password"]:focus {
+      border-color: #5abf5a; /* Slightly darker green on focus */
+      outline: none;
+    }
+
+    .btn-primary {
+      width: 100%;
+      padding: 10px;
+      background-color: #4caf50; /* Primary green color */
+      border: none;
+      border-radius: 4px;
+      color: #fff; /* White text */
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .btn-primary:hover {
+      background-color: #45a045; /* Slightly darker green on hover */
+    }
+
+    .switch-link {
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .switch-link a {
+      color: #2c6f2c; /* Dark green link */
+      text-decoration: none;
+    }
+
+    .switch-link a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
   <div class="auth-container">
